@@ -1,2 +1,6 @@
 bin/
 obj/
+Tortuga.deps.json
+Tortuga.dll
+Tortuga.pdb
+vk.dll

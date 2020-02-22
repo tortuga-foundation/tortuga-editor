@@ -40,9 +40,9 @@
     },
     {
       "label": "restore",
-      "command": "restore",
+      "command": "sh",
       "type": "shell",
-      "args": ["${workspaceFolder}/TortugaEditor.csproj"],
+      "args": ["restore.sh"],
       "problemMatcher": []
     },
     {

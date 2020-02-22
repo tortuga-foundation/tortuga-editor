@@ -14,5 +14,7 @@ jobs:
           dotnet-version: 3.0.101
       - name: Get Submodules
         run: git submodule init && git submodule update --recursive --init
+      - name: Build Tortuga Library
+        run: sh restore.sh
       - name: Build with dotnet
         run: dotnet build --configuration Release TortugaEditor.csproj
