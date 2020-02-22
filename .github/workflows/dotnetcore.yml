@@ -12,7 +12,11 @@ jobs:
         uses: actions/setup-dotnet@v1
         with:
           dotnet-version: 3.0.101
+      - name: Get Submodules
+        run: git submodule init && git submodule update --recursive --init
       - name: Build Tortuga Library
-        run: ./restore.sh
+        run: dotnet build tortuga/Tortuga/Tortuga.csproj
+      - name: Setup DLLs
+        run: cp tortuga/Tortuga/bin/Debug/netcoreapp3.0/* . && rm -r tortuga
       - name: Build with dotnet
         run: dotnet build --configuration Release TortugaEditor.csproj
