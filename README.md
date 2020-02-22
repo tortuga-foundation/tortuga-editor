@@ -2,6 +2,8 @@
 
 This is the UI Editor for the tortuga library
 
+![.NET Core](https://github.com/tortuga-foundation/tortuga-editor/workflows/.NET%20Core/badge.svg)
+
 ## Prerequisites
 
 * Dot Net Core 3.0
