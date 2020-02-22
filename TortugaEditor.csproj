@@ -6,6 +6,6 @@
     <RootNamespace>tortuga_editor</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\tortuga\Tortuga\Tortuga.csproj" />
+    <ProjectReference Include="tortuga\Tortuga\Tortuga.csproj" />
   </ItemGroup>
 </Project>
