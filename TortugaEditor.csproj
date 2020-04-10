@@ -1,8 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
+    <PackageId>TortugaEditor</PackageId>
+    <Version>0.0.1</Version>
+    <Authors>Zeeshan</Authors>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.0</TargetFramework>
-    <RootNamespace>tortuga_editor</RootNamespace>
+    <DocumentationFile>bin\Tortuga.XML</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="TortugaEngine" Version="0.0.1"/>
